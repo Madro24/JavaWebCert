@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Soccer League: Add a new league</title>
+</head>
+<body>
+
+<p> This form allow you to create a new soccer league</p>
+
+<form action="add_league.do" method="POST">
+Year: <input type="text" name="year" /><br/><br/>
+Season: 
+<select name="season">
+	<option value="UNKNOWN">select...</option>
+	<option value="SPRING">Spring</option>
+	<option value="SUMMER">Summer</option>
+	<option value="FALL">Fall</option>
+	<option value="WINTER">Winter</option> 
+</select><br/><br/>
+Title: <input type="text" name="title" />
+<input type="submit" value="Add League"/>
+</form>
+
+</body>
+</html>
